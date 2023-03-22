@@ -15,6 +15,10 @@ public class EvenNumbers : MonoBehaviour
         {
             Debug.Log("Creating count: " + i);
         }
+        if (count > 98)
+        {
+            Debug.Log("Count has reached 100");
+        }
     }
 
     // Update is called once per frame
